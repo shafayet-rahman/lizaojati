@@ -6,3 +6,10 @@ body {
   height: 100vh;
   background-color: #151b29;
 }
+button {
+  background: none;
+  border: 2px solid;
+  color: #ffa260;
+  padding: 1em 2em;
+  font-size: 1em;
+}
