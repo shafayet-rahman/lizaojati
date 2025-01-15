@@ -13,4 +13,17 @@
 
 #day 1 = printing,commenting,string manipulation,debugging and variables
 #------------------------------------------------------------------------------
-print("Sin city wasn't made for \"you\"") #print function that uses a string as an argument which uses backslash or escape to display the double quotes inside the string
+print("Sin city wasn't made for \n\"you\"") #print function that uses a string as an argument which uses backslash or escape to display the double quotes inside the string
+#value switch algorithm
+a = input("what's a? ")
+b = input("what's b? ")
+#executing the value switch code
+c = a
+d = b
+b = c
+#result
+print("a: " + d + '\n' + "b: " + c)
+#checking length
+name = input("name? ")
+length = len(name)
+print(length)
