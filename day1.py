@@ -12,3 +12,5 @@
 #12-break someone else's code
 
 #day 1 = printing,commenting,string manipulation,debugging and variables
+#------------------------------------------------------------------------------
+print("Sin city wasn't made for \"you\"") #print function that uses a string as an argument which uses backslash or escape to display the double quotes inside the string
