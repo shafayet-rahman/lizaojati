@@ -10,3 +10,5 @@
 #10-get a mentor, try pair programming
 #11-make chunking a habit
 #12-break someone else's code
+
+#day 1 = printing,commenting,string manipulation,debugging and variables
