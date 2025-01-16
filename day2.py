@@ -1,5 +1,5 @@
 # wowie we made it to day 2
-
+#integers-----------------
 #we can select a character of a string by using [] and putting in the index of the char we want as arg, this is also called subscripting
 print("hello"[4])
 
@@ -17,3 +17,8 @@ print(3.14)
 
 #the key to conditionals the damn booleans
 print(True)
+
+#checking previous day1 error
+error = "seven".capitalize
+solved_error = str(error)
+print(solved_error)
