@@ -20,9 +20,11 @@ print("Welcome to the rollercoaster, please elaborate with the questions to buy 
 height = int(input("What's your height in cm?\n"))
 age = int(input("What's your age?\n"))
 if height >= 120:
-    if age <= 18:
+    if age <= 12:
         print("The ticket price is 7$")
+    elif age >= 18:
+        print("The ticket price is 10$")
     else:
-        print("The ticket price is 12$")
+        print("The ticket price is 14$")
 else:
     print("You're not tall enough to enter the rollercoaster sorry!")
