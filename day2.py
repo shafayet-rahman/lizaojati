@@ -30,3 +30,12 @@ digit_two = int(user_input[1])
 user_input_added = digit_one + digit_two
 output = str(user_input_added)
 print("Your two digits added: " + output)
+
+#Mathematics in python
+print(1+1)
+print(1-1)
+print(1*2)
+print(9/3) #when doing division the result will be float
+print(5**5)
+
+#BMI calculator 
