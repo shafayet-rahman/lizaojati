@@ -49,6 +49,7 @@ print(5**5)
 print(round(8/3)) #3
 print(round(8/3,2)) #rounds up to two decimals = 2.67
 print(8//3) #no bs direct 2 = how many times you can divide it by 3
+
  #assignment shorcuts
 x = 5
 x += 1 #x = x + 1
@@ -56,3 +57,16 @@ x -= 1 #x = x - 1
 x *= 2 #x = x * 2 
 x /= 2 #x = x / 2
 x %= 2 #x = x % 2
+
+#f-string
+name = "John"
+age = 30
+print(f"Hello, my name is {name} and I'm {age} years old.")
+
+#your life in weeks
+
+year = 52
+average_life = 90
+user_age = int(input("What's your age?\n"))
+weeks_left = (average_life - user_age) * year
+print(f"The weeks you have left in your life: {weeks_left}")
