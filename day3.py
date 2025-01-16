@@ -33,8 +33,8 @@ elif height >= 120:
     if photos == 'yes':
         ticket += 3
         print(f"Your total price is {ticket}$")
-else:
-    print(f"Your total price is {ticket}$")
+    else:
+        print(f"Your total price is {ticket}$")
 
     
 #bmi 2.0
