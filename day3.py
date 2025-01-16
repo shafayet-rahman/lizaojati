@@ -30,7 +30,7 @@ else:
     print("You're not tall enough to enter the rollercoaster sorry!")
     
 #bmi 2.0
-
+print("Welcome to the upgraded bmi calculator")
 weight = float(input("What's your weight in kg?\n"))
 height = float(input("What's your height in meters?\n"))
 bmi = weight / (height ** 2)
