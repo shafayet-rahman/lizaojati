@@ -28,3 +28,17 @@ if height >= 120:
         print("The ticket price is 14$")
 else:
     print("You're not tall enough to enter the rollercoaster sorry!")
+    
+#bmi 2.0
+
+weight = float(input("What's your weight in kg?\n"))
+height = float(input("What's your height in meters?\n"))
+bmi = weight / (height ** 2)
+if bmi <= 18.5:
+    print("Underweight")
+elif bmi <= 25:
+    print("Normal weight")
+elif bmi <= 30:
+    print("Lil bulky")
+else:
+    print("Obese, Stop eating start gyming")
