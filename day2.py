@@ -39,3 +39,20 @@ print(9/3) #when doing division the result will be float
 print(5**5)
 
 #BMI calculator 
+#weight = int(input("What's your weight in kgs?\n"))
+#height = float(input("What's your height in meters?\n"))
+#Bmi = weight / height ** 2
+#Bmi_output = int(Bmi)
+#print(Bmi_output)
+
+#rounding in python 
+print(round(8/3)) #3
+print(round(8/3,2)) #rounds up to two decimals = 2.67
+print(8//3) #no bs direct 2 = how many times you can divide it by 3
+ #assignment shorcuts
+x = 5
+x += 1 #x = x + 1
+x -= 1 #x = x - 1
+x *= 2 #x = x * 2 
+x /= 2 #x = x / 2
+x %= 2 #x = x % 2
