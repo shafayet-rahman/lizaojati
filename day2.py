@@ -19,6 +19,14 @@ print(3.14)
 print(True)
 
 #checking previous day1 error
-error = "seven".capitalize
+error = 7
 solved_error = str(error)
-print(solved_error)
+print(solved_error + ' ' + "Days")
+
+#type conversion exercise
+user_input = input("what's your input?\n")
+digit_one = int(user_input[0])
+digit_two = int(user_input[1])
+user_input_added = digit_one + digit_two
+output = str(user_input_added)
+print("Your two digits added: " + output)
