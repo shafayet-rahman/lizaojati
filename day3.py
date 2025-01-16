@@ -18,11 +18,11 @@ else:
 #nested if/else statement using an amusement part roller coaster ticket entry
 print("Welcome to the rollercoaster, please elaborate with the questions to buy tickets")
 height = int(input("What's your height in cm?\n"))
+ticket = 0
 if height<120:
     print("You're not tall enough for the roller coaster")
 elif height >= 120:
     age = int(input("What's your age?\n"))
-    ticket = 0
     photos = input("do you want photos?")
     if age <= 12:
         ticket = 7
