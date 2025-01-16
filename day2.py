@@ -1,4 +1,4 @@
-# wowie we made it to day 2
+# wowie we made it to day 2(data types,numbers,type conversions,operations,f-strings)
 #integers-----------------
 #we can select a character of a string by using [] and putting in the index of the char we want as arg, this is also called subscripting
 print("hello"[4])
@@ -39,11 +39,11 @@ print(9/3) #when doing division the result will be float
 print(5**5)
 
 #BMI calculator 
-#weight = int(input("What's your weight in kgs?\n"))
-#height = float(input("What's your height in meters?\n"))
-#Bmi = weight / height ** 2
-#Bmi_output = int(Bmi)
-#print(Bmi_output)
+weight = int(input("What's your weight in kgs?\n"))
+height = float(input("What's your height in meters?\n"))
+Bmi = weight / height ** 2
+Bmi_output = int(Bmi)
+print(Bmi_output)
 
 #rounding in python 
 print(round(8/3)) #3
@@ -70,3 +70,12 @@ average_life = 90
 user_age = int(input("What's your age?\n"))
 weeks_left = (average_life - user_age) * year
 print(f"The weeks you have left in your life: {weeks_left}")
+
+#Tip calculator
+print("Greetings this is my tip calculator")
+total_bill = float(input("What's the total bill?\n"))
+tip_percentage = float(input("What percentage of tip would you like to give?\n"))
+split = int(input("How many people will split the bill?\n"))
+tip = round((total_bill * tip_percentage / 100 + total_bill) / split,2)
+print(f"Each person should pay: {tip}")
+#congo broksi you actually cooked it,make these two a big project using html,css and js or python and put it in your portfolio
