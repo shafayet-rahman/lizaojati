@@ -42,3 +42,14 @@ elif bmi <= 30:
     print(f"{bmi}, Lil bulky")
 else:
     print(f"{bmi}, Obese, Stop eating start gyming")
+    
+#stupid ahh leap year program
+year = int(input("What's the year?\n"))
+if year % 4 == 0:
+    if year % 100 == 0:
+        if year % 400 == 0:
+            print(f"{year} is a leap year")
+        else:
+            print(f"{year} is not a leap year")
+    else:
+        print(f"{year} is a leap year")
