@@ -63,3 +63,31 @@ if year % 4 == 0:
         print(f"{year} is a leap year")
 else:
     print(f"{year} is not a leap year")
+    
+#pizzarea bill program
+print("Welcome to the pizzarea")
+bill = 0 
+size = input("What size of pizza do you want? S,M,L\n")
+peperroni = input("Do you want peperroni?Y,N\n")
+cheese = input("Do you want extra cheese?Y,N\n")
+if size == 'S':
+    bill+=15
+    if peperroni == 'Y':
+        bill+=2
+    if cheese == 'Y':
+        bill+=1
+    print(f"Your bill is {bill}$")
+elif size == 'M':
+    bill+=20
+    if peperroni == 'Y':
+        bill+=3
+    if cheese == 'Y':
+        bill+=1
+    print(f"Your bill is {bill}$")
+elif size == 'L':
+    bill+=25
+    if peperroni == 'Y':
+        bill+=3
+    if cheese == 'Y':
+        bill+=1
+    print(f"Your bill is {bill}$")    
