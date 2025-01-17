@@ -7,5 +7,11 @@ print(random_int)
 #random float 
 random_float = random.random() * 5 #outputs a floating number between 0 - 1 multiplied by five
 #you import other python files from the same folder 
-import day3
-print(day3.day) #will import the day variable from day 3 and output the value
+"""import day3
+print(day3.day) #will import the day variable from day 3 and output the value"""
+#coin toss
+toss = random.random()
+if toss > 0.5:
+    print("Heads")
+else:
+    print("Tails")
