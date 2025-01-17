@@ -37,3 +37,29 @@ poor = ['purandhaka','mohammadpur']
 rich = ['gulshan','banani']
 richpoor = [rich,poor]
 print(richpoor)
+#rock paper scissor
+player_input = int(input("choose '0','1'.'2'\n"))
+computer_input = random.randint(0,2)
+playermove = 0
+computermove = 0
+if player_input == 0:
+    playermove = 'rock'
+elif player_input == 1:
+    playermove = 'scissor'
+else:
+    playermove = 'paper'
+
+if computer_input == 0:
+    computermove = 'rock'
+elif computer_input == 1:
+    computermove = 'scissor'
+else:
+    computermove = 'paper'
+
+if playermove == computermove:
+    print("It's a tie!")
+
+elif (playermove == 'rock' and computermove =='scissor') or (playermove =='scissor' and computermove == 'paper') or (playermove == 'paper' and computermove == 'rock'):
+    print(f"Player chose {playermove} and computer chose {computermove},{playermove} beats {computermove}, player wins!")
+else:
+    print(f"Computer chose {computermove} and player chose {playermove},{computermove} beats {playermove}, computer wins!")
