@@ -29,7 +29,7 @@ elif height >= 120:
     elif age <= 18:
         ticket = 10
     elif age >=45 or age <=55:
-        ticket = "nth it's free"
+        print("Everything's free don't worry")
     else:
         ticket = 14
     if photos == 'yes':
