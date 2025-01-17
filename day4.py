@@ -35,5 +35,5 @@ print(f"{names[random_count]} will pay")"""
 #nested lists
 poor = ['purandhaka','mohammadpur']
 rich = ['gulshan','banani']
-richpoor = [rich, poor]
+richpoor = [rich,poor]
 print(richpoor)
