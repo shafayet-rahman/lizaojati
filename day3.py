@@ -1,6 +1,6 @@
 #wowieee broski got into day 3 dayum and you didn't stop crazy grind frfr(conditional statements,logical operators,code blocks, scope)
 #conditional statements in python
-"""day = 'friday'
+day = 'friday'
 if day == 'friday':
     print("weekend")
 else:
@@ -115,7 +115,7 @@ if lovescore <= 10 and lovescore >= 90:
 elif lovescore >= 30 and lovescore >= 60:
     print(f"lovescore: {lovescore} it's aight ig")
 else:
-    print(f"lovescore: {lovescore} Good luck....")"""
+    print(f"lovescore: {lovescore} Good luck....")
 #Role Playing game program day 3 final project
 print("Welcome to the role playing game made my simsim(me)")
 print("Your job is to find the tresure")
