@@ -111,8 +111,8 @@ match2 = l + o + v + e
 total_lovescore = str(match1) + str(match2)
 lovescore = int(total_lovescore)
 if lovescore <= 10 and lovescore >= 90:
-    print("Fuchka aar tok")
+    print(f"lovescore: {lovescore} Fuchka aar tok")
 elif lovescore >= 30 and lovescore >= 60:
-    print("it's aight ig")
+    print(f"lovescore: {lovescore} it's aight ig")
 else:
-    print("Good luck....")
+    print(f"lovescore: {lovescore} Good luck....")
