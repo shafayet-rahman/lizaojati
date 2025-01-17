@@ -24,3 +24,10 @@ print(dhaka[-1]) #purandhaka
 # we can also assign the items within the lists
 dhaka[2] = 'mirpur' #replaces banani with mirpur
 #you don't need to memorise the string or list functions or built in methods just preview the documentation
+
+#Who will pay program
+names_string = input("names of the people\n")
+names = names_string.split(', ')
+people_count = len(names)
+random_count = random.randint(0, people_count - 1)
+print(f"{names[random_count]} will pay")
