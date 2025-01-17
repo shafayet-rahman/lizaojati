@@ -23,3 +23,4 @@ print(dhaka[1]) #Gulshan
 print(dhaka[-1]) #purandhaka
 # we can also assign the items within the lists
 dhaka[2] = 'mirpur' #replaces banani with mirpur
+#you don't need to memorise the string or list functions or built in methods just preview the documentation
