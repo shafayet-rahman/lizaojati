@@ -134,3 +134,4 @@ if Beginning == 'check houses':
         print("There's someone behind you, Game over")
 else:
     print("There is a large python at the lake, Game over")
+#wowie bro finished the game with his wifey ain't no way

@@ -1,0 +1,1 @@
+#WOWWWW bro's doing the work frfr(wifey effect) day4(randomisation and lists in python)
