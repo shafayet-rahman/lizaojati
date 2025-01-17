@@ -15,3 +15,11 @@ if toss > 0.5:
     print("Heads")
 else:
     print("Tails")
+
+#Wowie we now have lists in python aka arrays in js
+dhaka = ['uttara','Gulshan','banani','purandhaka']
+#we can access lists by using square after the var name and using the index we want as arg,+1 = counting from the start,-1 = counting from the finish
+print(dhaka[1]) #Gulshan
+print(dhaka[-1]) #purandhaka
+# we can also assign the items within the lists
+dhaka[2] = 'mirpur' #replaces banani with mirpur
