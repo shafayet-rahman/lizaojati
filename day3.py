@@ -94,3 +94,25 @@ elif size == 'L':
         bill+=1
     print(f"Your bill is {bill}$")     
     
+#love calculator
+your_name = input("what's your name?\n")
+their_name = input("what's their name?\n")
+combined_name = (your_name + their_name).lower()
+t = combined_name.count('t')
+r = combined_name.count('r')
+u = combined_name.count('u')
+e = combined_name.count('e')
+match1 = t + r + u + e
+l = combined_name.count('l')
+o = combined_name.count('o')
+v = combined_name.count('v')
+e = combined_name.count('e')
+match2 = l + o + v + e
+total_lovescore = str(match1) + str(match2)
+lovescore = int(total_lovescore)
+if lovescore <= 10 and lovescore >= 90:
+    print("Fuchka aar tok")
+elif lovescore >= 30 and lovescore >= 60:
+    print("it's aight ig")
+else:
+    print("Good luck....")
