@@ -1,6 +1,6 @@
 #wowieee broski got into day 3 dayum and you didn't stop crazy grind frfr(conditional statements,logical operators,code blocks, scope)
 #conditional statements in python
-day = 'friday'
+"""day = 'friday'
 if day == 'friday':
     print("weekend")
 else:
@@ -115,4 +115,22 @@ if lovescore <= 10 and lovescore >= 90:
 elif lovescore >= 30 and lovescore >= 60:
     print(f"lovescore: {lovescore} it's aight ig")
 else:
-    print(f"lovescore: {lovescore} Good luck....")
+    print(f"lovescore: {lovescore} Good luck....")"""
+#Role Playing game program day 3 final project
+print("Welcome to the role playing game made my simsim(me)")
+print("Your job is to find the tresure")
+Beginning = input("You are in a village, there is no one,it is abandoned. select 'check houses' or 'go to the lake'\n")
+if Beginning == 'check houses':
+    house = input("You find a rusty magnum revolver,'go to the trees' or 'go to the mansion'\n")
+    if house == 'go to the mansion':
+        mansion = input("there are 2 doors,'left' or 'right'\n")
+        if mansion == 'left':
+            room = input("There's an old woman, 'go close to her' or 'shoot'\n")
+            if room == 'go close to her':
+                print("she dissapears, and you see the tresure")
+        else:
+            print("She is a vampire she tears you apart, Game over")   
+    else:
+        print("There's someone behind you, Game over")
+else:
+    print("There is a large python at the lake, Game over")
