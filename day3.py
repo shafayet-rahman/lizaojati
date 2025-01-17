@@ -26,8 +26,10 @@ elif height >= 120:
     photos = input("do you want photos?")
     if age <= 12:
         ticket = 7
-    elif age >= 18:
+    elif age <= 18:
         ticket = 10
+    elif age >=45 or age <=55:
+        ticket = "nth it's free"
     else:
         ticket = 14
     if photos == 'yes':
@@ -90,4 +92,5 @@ elif size == 'L':
         bill+=3
     if cheese == 'Y':
         bill+=1
-    print(f"Your bill is {bill}$")    
+    print(f"Your bill is {bill}$")     
+    
