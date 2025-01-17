@@ -36,3 +36,4 @@ print(f"{names[random_count]} will pay")"""
 poor = ['purandhaka','mohammadpur']
 rich = ['gulshan','banani']
 richpoor = [rich, poor]
+print(richpoor)
