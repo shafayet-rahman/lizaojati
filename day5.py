@@ -16,3 +16,9 @@ for height in student_heights:
     length += 1
 average_height = total_height / length
 print(average_height)
+#highest score
+highest_score = student_heights[0]
+for score in student_heights:
+    if score > highest_score:
+        highest_score = score
+print("The highest score is:", highest_score)
