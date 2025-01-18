@@ -54,13 +54,13 @@ for i in range(0,rand_length):
     rand_symbol = symbol[rand_symbol_index - 1]
     rand = [rand_letter,rand_num,rand_symbol]
     password += random.choice(rand)"""
-for i in range(1,rand_num_length):
+for i in range(1,rand_num_length + 1):
     rand_nums = random.choice(num)
     password += rand_nums
-for i in range(1,rand_letter_length):
+for i in range(1,rand_letter_length + 1):
     rand_letters = random.choice(letter)
     password += rand_letters
-for i in range(1,rand_symbol_length):
+for i in range(1,rand_symbol_length + 1):
     rand_symbols = random.choice(symbol)
     password += rand_symbols
 print(password)
