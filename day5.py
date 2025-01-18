@@ -17,8 +17,13 @@ for height in student_heights:
 average_height = total_height / length
 print(average_height)
 #highest score
-highest_score = student_heights[0]
+highest_height = student_heights[0]
 for score in student_heights:
-    if score > highest_score:
-        highest_score = score
-print("The highest score is:", highest_score)
+    if score > highest_height:
+        highest_height = score
+print("The highest height is:", highest_height)
+#range loop
+sum = 0
+for i in range(1,101):
+    sum += i
+print(sum)
