@@ -3,4 +3,16 @@
 fruits = ['peach','cherry','apple']
 for fruit in fruits:
     print('Big ' + fruit + ' pie')
-    
+#height average exercise
+student_heights = input("Enter student heights separated by spaces: ").split()
+for n in range(0, len(student_heights)):
+    student_heights[n] = int(student_heights[n])
+
+# Calculate the average
+total_height = 0
+length = 0
+for height in student_heights:
+    total_height += height
+    length += 1
+average_height = total_height / length
+print(average_height)
