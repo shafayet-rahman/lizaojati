@@ -1,6 +1,6 @@
 #damn bro is grinding through the night frfr, so proud of bro(python loops - for loops,ranges and code blocks)
 #a simple for loop(takes a var called fruit and uses it to iterate all of the items in the list)
-fruits = ['peach','cherry','apple']
+"""fruits = ['peach','cherry','apple']
 for fruit in fruits:
     print('Big ' + fruit + ' pie')
 #height average exercise
@@ -27,3 +27,40 @@ sum = 0
 for i in range(1,101):
     sum += i
 print(sum)
+#even number sumation program
+n = int(input("What's the range?\n"))
+sum = 0
+for i in range(2, n+1, 2):
+    sum += i
+print("This is your even number summation", sum)"""
+#random letter generator
+import random
+
+password = ''
+'''rand_length = int(input("length?\n"))'''
+rand_num_length = int(input("How many numbers?\n"))
+rand_letter_length = int(input("How many letters?\n"))
+rand_symbol_length = int(input("How many symbol?\n"))
+letter ='abcdefghijklmnopqrstuvwxyz'
+symbol = '!@#$%^&*'
+num = '123456789'
+"""
+for i in range(0,rand_length):
+    rand_index = random.randint(0,len(letter))
+    rand_letter = letter[rand_index - 1]
+    rand_num_index = random.randint(0,len(num))
+    rand_num = num[rand_num_index - 1]
+    rand_symbol_index = random.randint(0,len(symbol))
+    rand_symbol = symbol[rand_symbol_index - 1]
+    rand = [rand_letter,rand_num,rand_symbol]
+    password += random.choice(rand)"""
+for i in range(1,rand_num_length):
+    rand_nums = random.choice(num)
+    password += rand_nums
+for i in range(1,rand_letter_length):
+    rand_letters = random.choice(letter)
+    password += rand_letters
+for i in range(1,rand_symbol_length):
+    rand_symbols = random.choice(symbol)
+    password += rand_symbols
+print(password)
