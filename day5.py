@@ -44,6 +44,8 @@ rand_symbol_length = int(input("How many symbol?\n"))
 letter ='abcdefghijklmnopqrstuvwxyz'
 symbol = '!@#$%^&*'
 num = '123456789'
+password_list = []
+riyal_password = ''
 """
 for i in range(0,rand_length):
     rand_index = random.randint(0,len(letter))
